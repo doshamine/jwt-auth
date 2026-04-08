@@ -1,5 +1,5 @@
 """
-WSGI config for effective_mobile_task project.
+WSGI config for jwt_auth project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "effective_mobile_task.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "jwt_auth.settings")
 
 application = get_wsgi_application()
