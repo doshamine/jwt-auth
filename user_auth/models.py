@@ -1,6 +1,6 @@
 from django.db import models
 
-from effective_mobile_task import settings
+from jwt_auth import settings
 
 
 class Role(models.Model):
